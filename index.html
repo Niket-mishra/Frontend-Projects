@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niket M.
+    </title>
+    <link rel="icon" type="image/x-icon" href="/images/Iket_m.__3_-removebg-preview.png">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/831e2df27c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/l.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>I'm <span>Niket Mishra</span><br>from India</h1>
+            </div>
+        </div>
+    </div>
+
+<!-- About Section -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/me.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About <span>Me</span></h1>
+                    <p>I am a fresher pursuing engineering in
+                        computer science with a passion for
+                        design automation and machine
+                        intelligence. I am looking for an
+                        opportunity to apply my knowledge
+                        and skills in a challenging and
+                        rewarding environment. I am a quick
+                        learner, a problem-solver and a team
+                        player who can contribute to the
+                        success of your organization.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML 5</span><br>Experienced and used on Multiple Projects</li>
+                            <li><span>CSS 3</span><br>Intermediate and Used for Limited Projects</li>
+                            <li><span>Java</span><br>Expertised and have knowledge upto Advance level</li>
+                            <li><span>JavaScript</span><br>Intermediate and Used on Very Limited Projects</li>
+                            <li><span>SpringBoot</span><br>Beginner and Still in Learning Phase</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Internship at Swabhav Venturelabs</li>
+                            <li><span>2019 - 2023</span><br>Web App Development</li>
+                            <li><span>2017 - 2019</span><br>Building Android / IOS Applications</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020 - Current</span><br><strong>B.Tech</strong> - St John college of Engineering and Management</li>
+                            <li><span>2018 - 2020</span><br><strong>HSC</strong> - Shri T.P. Bhatia College of Science</li>
+                            <li><span>2017 - 2018</span><br><strong>SSC</strong> - SMT J.B. Khot High School No 2.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------services-------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My <span>Services</span></h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa fa-code"></i>
+                    <h2>Frontend Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga repellat enim quos explicabo illum eaque ipsum reiciendis, reprehenderit cumque, numquam itaque ipsam quasi aspernatur officiis est assumenda eligendi iste dolorem.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Backend Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga repellat enim quos explicabo illum eaque ipsum reiciendis, reprehenderit cumque, numquam itaque ipsam quasi aspernatur officiis est assumenda eligendi iste dolorem.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Database & Version Control</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga repellat enim quos explicabo illum eaque ipsum reiciendis, reprehenderit cumque, numquam itaque ipsam quasi aspernatur officiis est assumenda eligendi iste dolorem.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------portfolio-------------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My <span>Work</span></h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque laboriosam esse voluptatibus temporibus voluptas sunt suscipit sapiente! Earum voluptatem ut nisi numquam quasi explicabo ullam, fugit quos voluptate tenetur quaerat!</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque laboriosam esse voluptatibus temporibus voluptas sunt suscipit sapiente! Earum voluptatem ut nisi numquam quasi explicabo ullam, fugit quos voluptate tenetur quaerat!</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque laboriosam esse voluptatibus temporibus voluptas sunt suscipit sapiente! Earum voluptatem ut nisi numquam quasi explicabo ullam, fugit quos voluptate tenetur quaerat!</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/Niket-mishra?tab=repositories" class="btn">See more</a>
+        </div>
+    </div>
+<!-- ---------------------contact-------------------- -->
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact <span>Me</span></h1>
+                <p><i class="fa-solid fa-paper-plane"></i><a href="mailto://niketmishraofficial@gmail.com"> niketmishraofficial@gmail.com</a></p>
+                <p><i class="fa-solid fa-phone"></i> <a href="tel://+919021605329"> +91 90216 05329</a></p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/niketmishraofficial/"><i class='fab fa-facebook'></i></a>
+                    <a href="https://twitter.com/Niket_Mishra_"><i class='fab fa-twitter-square'></i></a>
+                    <a href="https://www.instagram.com/_n.i.k.e.t_/"><i class='fab fa-instagram'></i></a>
+                    <a href="https://github.com/Niket-mishra/"><i class='fab fa-github'></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; Niket M. Made with <i class="fa-solid fa-heart"></i> using <i class="fa-brands fa-html5"></i> HTML & <i class="fa-brands fa-css3-alt"></i> CSS</p>
+    </div>
+</div>
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200";
+        }
+    </script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwvc7wMW5GUupf53pKC5BZ6zfPcY2cPteUo_CmcayuIm-11e9IqYIOytrZHaLqyyLlj4g/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent Successfully"
+        setTimeout(function () {
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+    </script>
+</body>
+</html>
